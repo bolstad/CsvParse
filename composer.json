@@ -1,0 +1,25 @@
+{
+  "name": "bolstad/CsvParse",
+  "description": "Search csv files by named fields",
+  "license": "MIT",
+  "keywords": ["csv"],
+  "authors": [
+    {
+      "name": "Christian Bolstad",
+      "email": "christian@bolstad.se"
+    }
+  ],
+    "require": {
+        "bolstad/csv-parser": "^0.1.4",
+        "bolstad/csv-writer": "^0.2.0",
+        "symfony/console": "^3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bolstad\\CsvGrep\\": "src"
+        }
+    }
+}
